@@ -30,7 +30,7 @@ export class BooksController {
     async delete(req: Request, res: Response) {
         const product = await new BookService().delete(req.params.id)
 
-        return res.status(200).json("Sucessfuly deleted product!!")
+        return res.status(200).json("Sucessfuly deleted book!!")
     }
 }
 

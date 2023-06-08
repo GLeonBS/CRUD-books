@@ -1,10 +1,10 @@
 {
-  "name": "aep2-bussola",
+  "name": "cadastrar-livro",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node src/server.ts",
+    "dev": "ts-node src/server.ts --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
