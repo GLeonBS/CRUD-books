@@ -1,24 +1,30 @@
-<form>
-    <label> Título:
-        <input id="title" name="title" placeholder="Digite o título:" class="input-doc">
-    </label>
-    <label> Subtítulo:
-        <input id="subtitle" name="subtitle" placeholder="Digite o subtítulo:" class="input-doc">
-    </label>
-    <label>Data da publicação:
-        <input id="publishedAt" name="publishedAt" type="date" class="input-doc">
-    </label>
-    <label>Autor:
-        <input type="text" id="author" name="author" placeholder="Digite um autor" class="input-doc">
-    </label>
-    <label> Volume:
-        <input id="volume"  type="number" name="volume" placeholder="Digite o volume:" class="input-doc">
-    </label>
-    <label>ISBN: 
-        <input id="isbn" name="isbn" placeholder="Digite o código isbn:" class="input-doc">
-    </label>
-    <label>Edição:
-        <input id="edition" name="edition" type="number" placeholder="Digite a edição:" class="input-doc">
-    </label>
-    <button id="btnDoc" type="submit" class="btn_doc">Cadastrar</button>
-</form>
+<button id="change">
+    Visualizar Livros Cadastrados
+</button>
+
+<div id="bodyApplication">
+    <form>
+        <label> Título:
+            <input id="title" name="title" placeholder="Digite o título:" class="input-doc" required>
+        </label>
+        <label> Subtítulo:
+            <input id="subtitle" name="subtitle" placeholder="Digite o subtítulo:" class="input-doc" required>
+        </label>
+        <label>Data da publicação:
+            <input id="publishedAt" name="publishedAt" type="date" class="input-doc" required>
+        </label>
+        <label>Autor:
+            <input type="text" id="author" name="author" placeholder="Digite um autor" class="input-doc" required>
+        </label>
+        <label> Volume:
+            <input id="volume" type="number" name="volume" placeholder="Digite o volume:" class="input-doc" required>
+        </label>
+        <label>ISBN:
+            <input id="isbn" name="isbn" placeholder="Digite o código isbn:" class="input-doc" required>
+        </label>
+        <label>Edição:
+            <input id="edition" name="edition" type="number" placeholder="Digite a edição:" class="input-doc" required>
+        </label>
+        <button id="btnDoc" type="submit" class="btn_doc">Cadastrar</button>
+    </form>
+</div>
