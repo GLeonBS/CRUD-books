@@ -4,6 +4,7 @@ export const formService = () => {
     const bodyApplication = document.querySelector<HTMLDivElement>("#bodyApplication")!
     let pagina = 0
     const thisPage = window.location
+    const rota = "http://localhost:3000/books"
 
     changeButton.onclick = () => {
         if (pagina === 0) {
